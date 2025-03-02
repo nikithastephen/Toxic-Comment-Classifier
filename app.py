@@ -3,7 +3,7 @@ import pickle
 import nltk
 from nltk.stem.snowball import SnowballStemmer
 import re
-import pandas as pd
+import pandas as p
 
 # Load pre-trained model
 with open("lr_pipeline.pkl", "rb") as model_file:
