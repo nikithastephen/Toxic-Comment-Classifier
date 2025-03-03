@@ -6,7 +6,7 @@ import re
 import pandas as p
 
 # Load pre-trained model
-with open("lr_pipeline.pkl", "rb") as model_file:
+with open("lr_pipeline.pkl", "rb") as model_file
     LR_pipeline = pickle.load(model_file)
 
 # Load column labels
